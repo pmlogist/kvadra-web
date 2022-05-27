@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "name": "Settings"
+  },
+  "layouts": {
+    "lang-name-en": "English",
+    "lang-name-fr": "Français",
+    "lang-name-ru": "Русский"
+  }
+}

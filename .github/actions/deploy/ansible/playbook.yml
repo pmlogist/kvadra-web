@@ -1,0 +1,21 @@
+- hosts: web
+  become_user: ansible
+  become: yes
+
+  vars:
+    container: app
+
+  tasks:
+    - name: Create and start services
+      community.docker.docker_compose:
+        project_src: /opt/app
+        state: present
+        pull: yes
+        remove_orphans: yes
+      register: output
+
+    - name: Run `docker-compose up`
+      community.docker.docker_compose:
+        project_src: /opt/app
+        build: no
+        remove_orphans: yes
