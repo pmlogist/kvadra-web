@@ -1,0 +1,26 @@
+{
+  "sign-in-h1": "Войдите в свою учетную запись",
+  "sign-in-excerpt": "чтобы воспользоваться всеми нашими функциями",
+  "sign-up-h1": "Создайте учетную запись сейчас",
+  "sign-up-excerpt": "чтобы воспользоваться всеми нашими функциями",
+  "first-name": "Имя",
+  "last-name": "Фамилия",
+  "username": "Имя пользователя",
+  "email": "Электронный адрес",
+  "password": "Пароль",
+  "sign-in-message": "Уже зарегистрированный?",
+  "sign-up-message": "Нужна учетная запись?",
+  "forgot-password": "Забыли пароль?",
+  "remember-me": "Помнишь меня",
+  "native-language": "Родной язык",
+  "learning": "Учиться",
+  "errors": {
+    "messages": {
+      "wrong-credentials": "L'adresse électronique ou le mot de passe de correspondent pas."
+    },
+    "unique": {
+      "email": "Этот адрес электронной почты уже существует",
+      "username": "Это имя пользователя уже существует"
+    }
+  }
+}

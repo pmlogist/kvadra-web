@@ -10,7 +10,7 @@ export const Page: FC<PageProps> = (props) => {
   return (
     <Fragment>
       <Head>
-        <title>{title}</title>
+        <title>{`${title} - ${process.env.NEXT_PUBLIC_APP_NAME}`}</title>
       </Head>
 
       {children}

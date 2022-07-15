@@ -1,5 +1,7 @@
+ARG NODE_IMAGE="node:16.15.0-alpine3.15"
+
 # Dependencies
-FROM node:18.2.0-alpine3.15 as deps
+FROM ${NODE_IMAGE} as deps
 LABEL builder=true
 RUN mkdir /opt/deps && chown node:node /opt/deps
 RUN mkdir /opt/app && chown node:node /opt/app
@@ -20,7 +22,7 @@ COPY . .
 RUN npm run build 
 
 # Release 
-FROM node:18.2.0-alpine3.15 as release
+FROM ${NODE_IMAGE} as release
 RUN mkdir /opt/app && chown node:node /opt/app
 WORKDIR /opt/app
 COPY --from=deps /opt/deps/prod /opt/app/node_modules

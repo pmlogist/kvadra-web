@@ -2,9 +2,27 @@
   "settings": {
     "name": "Settings"
   },
+  "validations": {
+    "min": "Test"
+  },
   "layouts": {
+    "language": "Langue",
+    "all-right-reserved": "Tous droits réservés",
+    "sign-in": "Se connecter",
+    "sign-up": "S'inscrire",
+    "logout": "Se deconnecter",
     "lang-name-en": "English",
     "lang-name-fr": "Français",
     "lang-name-ru": "Русский"
-  }
+  },
+  "menu": {
+    "profile": "Profil",
+    "settings": "Réglages"
+  },
+  "unavailable": "Non disponible :(",
+  "native-language": "Langue native",
+  "learning": "Apprendre",
+  "speaking": "Parle",
+  "remember-me": "Se souvenir",
+  "save": "Enregistrer"
 }

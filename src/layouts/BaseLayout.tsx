@@ -1,5 +1,4 @@
-import { inspect } from "@xstate/inspect";
-import { globalStyles } from "@/lib/styles/globals";
+import { ChakraProvider } from "@chakra-ui/react";
 
 export interface BaseLayoutSchemaProps {
   children: React.ReactNode;
@@ -8,9 +7,7 @@ export interface BaseLayoutSchemaProps {
 export const BaseLayoutSchema = (props: BaseLayoutSchemaProps) => {
   const { children } = props;
 
-  globalStyles();
-
-  return <>{children}</>;
+  return <ChakraProvider>{children}</ChakraProvider>;
 };
 
 export const BaseLayout = (page: React.ReactElement) => {

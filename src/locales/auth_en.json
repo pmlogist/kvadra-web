@@ -1,0 +1,26 @@
+{
+  "sign-in-h1": "Sign in to your account",
+  "sign-in-excerpt": "to enjoy all of our cool features",
+  "sign-up-h1": "Sign up account",
+  "sign-up-excerpt": "to enjoy all of our cool features",
+  "first-name": "First Name",
+  "last-name": "Last Name",
+  "username": "Username",
+  "email": "Email",
+  "password": "Password",
+  "sign-in-message": "Already registered?",
+  "sign-up-message": "Need an account?",
+  "forgot-password": "Forgot password?",
+  "remember-me": "Remember me",
+  "native-language": "Native language",
+  "learning": "Learning",
+  "errors": {
+    "messages": {
+      "wrong-credentials": "L'adresse électronique ou le mot de passe de correspondent pas."
+    },
+    "unique": {
+      "email": "This email address already exists",
+      "username": "This username already exists"
+    }
+  }
+}

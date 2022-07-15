@@ -2,9 +2,28 @@
   "settings": {
     "name": "Settings"
   },
+  "validations": {
+    "min": "Test",
+    "too_small": "This field is too short",
+    "invalid_string": "This field is invalid"
+  },
   "layouts": {
+    "language": "Language",
+    "all-right-reserved": "All rights reserved",
+    "logout": "Logout",
+    "sign-in": "Sign in",
+    "sign-up": "Sign up",
     "lang-name-en": "English",
     "lang-name-fr": "Français",
     "lang-name-ru": "Русский"
-  }
+  },
+  "menu": {
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "unavailable": "Unavailable",
+  "native-language": "Native language",
+  "learning": "Learning",
+  "speaking": "Speaking",
+  "save": "Save"
 }

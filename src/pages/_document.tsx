@@ -1,4 +1,3 @@
-import { getCssText } from "@/lib/styles/stitches";
 import NextDocument, { Head, Html, Main, NextScript } from "next/document";
 
 export default class Document extends NextDocument {
@@ -17,10 +16,6 @@ export default class Document extends NextDocument {
             rel="stylesheet"
           />
         </Head>
-        <style
-          id="stitches"
-          dangerouslySetInnerHTML={{ __html: getCssText() }}
-        />
         <body>
           <Main />
           <NextScript />

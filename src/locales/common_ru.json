@@ -2,9 +2,27 @@
   "settings": {
     "name": "Settings"
   },
+  "validations": {
+    "min": "Test",
+    "too_small": "Test"
+  },
   "layouts": {
+    "language": "Язык",
+    "all-right-reserved": "Все права защищены",
+    "sign-in": "Войти",
+    "sign-up": "Зарегистрировать",
+    "logout": "Вход",
     "lang-name-en": "English",
     "lang-name-fr": "Français",
     "lang-name-ru": "Русский"
-  }
+  },
+  "menu": {
+    "profile": "Профил",
+    "settings": "Настройки"
+  },
+  "unavailable": "Недоступно",
+  "native-language": "Родной язык",
+  "learning": "Учиться",
+  "speaking": "Говорящие",
+  "save": "Сохранить"
 }

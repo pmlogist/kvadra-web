@@ -1,0 +1,26 @@
+{
+  "sign-in-h1": "Connecte-toi sur ton compte",
+  "sign-in-excerpt": "pour profiter de toutes nos fonctionnalités",
+  "sign-in-h1": "Inscris-toi maintenant",
+  "sign-up-excerpt": "pour profiter de toutes nos fonctionnalités",
+  "first-name": "Prénom",
+  "last-name": "Nom",
+  "username": "Nom d'utilisateur",
+  "email": "Adresse électronique",
+  "password": "Mot de passe",
+  "sign-in-message": "Déjà inscrit ?",
+  "sign-up-message": "Pas de compte ?",
+  "forgot-password": "Mot de passe oublié ?",
+  "native-language": "Langue native",
+  "learning": "Apprendre",
+  "remember-me": "Se souvenir",
+  "errors": {
+    "messages": {
+      "wrong-credentials": "L'adresse électronique ou le mot de passe de correspondent pas."
+    },
+    "unique": {
+      "email": "Cette adresse électronique est déjà utilisée",
+      "username": "Ce nom d'utilisateur est déjà utilisée"
+    }
+  }
+}

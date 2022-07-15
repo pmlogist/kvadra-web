@@ -28,6 +28,7 @@ body {
   5. Improve text rendering
 */
 body {
+  height: 100%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -69,6 +70,7 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+  height: 100%;
 }
 
 a,

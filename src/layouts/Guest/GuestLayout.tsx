@@ -1,38 +1,27 @@
-import Link from "next/link";
+import { Box, Flex } from "@chakra-ui/react";
 import { FC, ReactElement } from "react";
-import { Brand, Center, Header } from "@/components";
-import { styled } from "@/lib/styles/stitches";
+
 import { BaseLayoutSchema } from "../BaseLayout";
-import { GuestLayoutDropdownMenu } from "./GuestLayoutDropdownMenu";
-import { ChangeLocal } from "./ChangeLocal";
+import { GuestLayoutFooter } from "./GuestLayoutFooter";
+import { GuestLayoutHeader } from "./GuestLayoutHeader";
 
 export interface GuestLayoutSchemaProps {
   children: React.ReactNode;
 }
 
-const Wrapper = styled("div", {
-  height: "100%",
-});
-
 export const GuestLayoutSchema: FC<GuestLayoutSchemaProps> = (props) => {
   const { children } = props;
 
   return (
-    <Wrapper>
-      <Header
-        left={
-          <Link href="/" passHref>
-            <Brand css={{ marginLeft: 10 }}>kvadra</Brand>
-          </Link>
-        }
-        right={
-          <Center css={{ marginRight: 10 }}>
-            <ChangeLocal />
-          </Center>
-        }
-      />
-      {children}
-    </Wrapper>
+    <Box h="100%" w="100%">
+      <GuestLayoutHeader />
+
+      <Box w="full" h="full" pt={{ base: `${60}px`, md: `${50}px` }}>
+        {children}
+      </Box>
+
+      <GuestLayoutFooter />
+    </Box>
   );
 };
 GuestLayoutSchema.displayName = "GuestLayoutSchema";
